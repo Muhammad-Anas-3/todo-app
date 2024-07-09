@@ -34,7 +34,7 @@ function App() {
                 type="text"
                 value={inputText}
                 onChange={(e) => setInputText(e.target.value)}
-                placeholder="e.g Product ABC"
+                placeholder="e.g rest time"
                 className="rounded-[4px] pl-3 pr-2 py-2 flex-grow focus:outline-none"
               />
             </div>

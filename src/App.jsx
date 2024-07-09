@@ -42,7 +42,7 @@ function App() {
               Add
             </button>
           </div>
-          <div className="py-4">
+          <div className="py-4 overflow-auto h-[350px]">
             <h2 className="font-bold my-2 common-text-color">Incomplete</h2>
             {tasks
               .map((task, index) => ({ ...task, originalIndex: index }))
